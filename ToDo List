@@ -1,0 +1,26 @@
+Filter & amp
+1. Check capacitors I have to know if the circuit is feasable
+2. Build and validate the circuit in real life
+
+Integrate
+1. Determine the expected signal when eyes looking up/down/left/right
+2. Think about what to do since EOG pads only come in 1 pair, (maybe just left/right)
+3. Think about the logic of combining the signals
+
+--- Storage of toDos below ---
+
+Calibration
+1. Adjust gain at feedback or input
+
+UI
+1. Determine led shining voltage range
+2. Find ways to show the gaze angle using the linearity btw gaze angle and signal voltage
+
+Validation
+1. Make the validation program with unity or matlab
+2. Measure size of my screen and calculate the required distance during tests
+
+--- Potential toDos ---
+
+Fancy stuffs
+1. Alert when gaze angle threshold crossing
