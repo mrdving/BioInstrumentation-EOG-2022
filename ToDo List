@@ -1,20 +1,27 @@
+--- Current toDos --- (Sort by priority)
+
+UI
+1. High angle : Find ways to increase the threshold voltage.
+2. Low angle : Decide wwhether we want another amplification or change the gain in the previous step.
+
+Sensor
+1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
+
 Filter & amp
-1. Check capacitors I have to know if the circuit is feasable
+1. Check capacitors. I have to know if the circuit is feasable
 2. Build and validate the circuit in real life
+    2a. The UI design and the sensor output may affect the desired gain
 
 Integrate
-1. Determine the expected signal when eyes looking up/down/left/right
-2. Think about what to do since EOG pads only come in 1 pair, (maybe just left/right)
-3. Think about the logic of combining the signals
+1. Change design description to include only left / right
+2. Think about the logic of combining the signals
+    2a. Needs validation on sensor first
+
 
 --- Storage of toDos below ---
 
 Calibration
-1. Adjust gain at feedback or input
-
-UI
-1. Determine led shining voltage range
-2. Find ways to show the gaze angle using the linearity btw gaze angle and signal voltage
+1. Determine which resistor to be replaced by adjustable resistor to fine tune gain and thresholds
 
 Validation
 1. Make the validation program with unity or matlab
