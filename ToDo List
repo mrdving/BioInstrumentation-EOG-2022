@@ -1,15 +1,12 @@
 --- Current toDos --- (Sort by priority)
 
-UI
-1. High angle : Find ways to increase the threshold voltage.
-2. Low angle : Decide wwhether we want another amplification or change the gain in the previous step.
-
 Sensor
 1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
 
 Filter & amp
-1. Check capacitors. I have to know if the circuit is feasable
-2. Build and validate the circuit in real life
+1. Update output to 5V
+2. Check capacitors. I have to know if the circuit is feasable
+3. Build and validate the circuit in real life
     2a. The UI design and the sensor output may affect the desired gain
 
 Integrate
