@@ -4,11 +4,8 @@ Sensor
 1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
 
 Filter & amp
-1. Update output to 5V
-2. Test with noises added (drift and powerline)
-3. Determine how do we want to adjust R1 to tune the gain
-4. Redesign capacitors, the max we have is 1mF
-5. Build and validate the circuit in real life
+- Test with noises added (drift and powerline)
+- Build and validate the circuit in real life
     2a. The UI design and the sensor output may affect the desired gain
 
 Integrate
