@@ -8,9 +8,11 @@ Filter & amp
 - Build and validate the circuit in real life
     2a. The UI design and the sensor output may affect the desired gain
 
+
 Integrate
-1. Change design description to include only left / right
-2. Think about the logic of combining the signals
+- Test the full circuit with signal and noise(drift and power line)
+- Change design description to include only left / right
+- Think about the logic of combining the signals
     2a. Needs validation on sensor first
 
 
