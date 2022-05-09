@@ -1,4 +1,9 @@
 --- Current toDos --- (Sort by priority)
+UI:
+- Change the threshold to suit the new input voltage magnitude 3.2V
+
+Peak detector & low pass
+- Implement peak detector and LPF to get the envelope of the signal
 
 Sensor
 1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
