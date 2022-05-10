@@ -1,0 +1,10 @@
+- Why is my gain lower than the simulation?
+(refer to document "filter amp", May 10th)
+The total gain is around 500 instead of the designated 1000.
+What is causing the difference?
+
+- How to use the eog sensor?
+(refer to document "filter amp", May 10th, or "Sensor", May 10th)
+The eog signal did not show any difference to the gaze angle.
+Did I connected it wrong, or did I overlooked something else?
+
