@@ -1,17 +1,16 @@
 --- Current toDos --- (Sort by priority)
+Consultation:
+- how to use sensor
+- why gain is lower than simulation?
+
 UI:
-- Change the threshold to suit the new input voltage magnitude 3.2V
+- Change the threshold to suit the new input voltage magnitude 1.5V
 
 Peak detector & low pass
 - Implement peak detector and LPF to get the envelope of the signal
 
 Sensor
 1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
-
-Filter & amp
-- Test with noises added (drift and powerline)
-- Build and validate the circuit in real life
-    2a. The UI design and the sensor output may affect the desired gain
 
 
 Integrate
