@@ -8,6 +8,7 @@ UI:
 
 Peak detector & low pass
 - Implement peak detector and LPF to get the envelope of the signal
+- Detect threshold crossing and hold the signal for a certain amount of time
 
 Sensor
 1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
@@ -16,9 +17,7 @@ Sensor
 Integrate
 - Test the full circuit with signal and noise(drift and power line)
 - Change design description to include only left / right
-- Think about the logic of combining the signals
-    2a. Needs validation on sensor first
-
+- Change design description to detect changes of EOG instead of directly showing the gaze angle
 
 --- Storage of toDos below ---
 
@@ -29,7 +28,3 @@ Validation
 1. Make the validation program with unity or matlab
 2. Measure size of my screen and calculate the required distance during tests
 
---- Potential toDos ---
-
-Fancy stuffs
-1. Alert when gaze angle threshold crossing
