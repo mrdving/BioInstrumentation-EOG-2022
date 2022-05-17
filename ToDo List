@@ -2,27 +2,23 @@
 Consultation:
 - how to use sensor
 - why gain is lower than simulation?
+- why ui threshold+ have a wierd shape?
 
-UI:
-- Change the threshold to suit the new input voltage magnitude 1.5V
-
-Peak detector & low pass
-- Implement peak detector and LPF to get the envelope of the signal
-- Detect threshold crossing and hold the signal for a certain amount of time
+Validation:
+- Document the validation
+- point out what is still unsatisfactory with the results (e.g. thresh, flicker)
 
 Sensor
 1. Learn exactly how to use those sensor, so that we can reiterate our previous calculations.
 
-
-Integrate
-- Test the full circuit with signal and noise(drift and power line)
+Design report
 - Change design description to include only left / right
 - Change design description to detect changes of EOG instead of directly showing the gaze angle
 
---- Storage of toDos below ---
-
 Calibration
-1. Determine which resistor to be replaced by adjustable resistor to fine tune gain and thresholds
+-. Determine which resistor to be replaced by adjustable resistor to fine tune gain and thresholds
+
+--- Storage of toDos below ---
 
 Validation
 1. Make the validation program with unity or matlab
