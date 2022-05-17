@@ -91,3 +91,66 @@ min(sig_2)
 
 off2 = 0.5*(max(sig_2) + min(sig_2))%26.35mV
 amp2 = max(sig_2) - off2 %0.21mV
+%% Validation-sig1
+close all
+figure()
+
+T_pause = 1/83.34;
+nT = length(gaze_1);
+pause()
+% count down
+for iT = 1:10
+    scatter(ones(1, iT), 1:iT)
+    ylim([0,11])
+    yline(10)
+    pause(1)
+end
+
+tic
+iT = 1;
+t = time_1(1);
+while t ~= time_1(end)
+    plot(time_1(1:iT), gaze_1(1:iT),'w');
+    set(gca,'Color','k')
+    yline(0);
+    ([time_1(iT) - 5, time_1(iT) + 5])
+    xlim([time_1(iT) - 5, time_1(iT) + 5])
+    ylim([-40, 40])
+    
+    t_ = time_1(time_1 < toc +  time_1(1));
+    t = t_(end);
+    iT = find(time_1 == t);
+    pause(T_pause)
+end
+
+%% Validation-sig2
+close all
+figure()
+T_pause = 1/83.34;
+nT = length(gaze_2);
+pause()
+% count down
+for iT = 1:10
+    scatter(ones(1, iT), 1:iT)
+    ylim([0,11])
+    yline(10)
+    pause(1)
+end
+tic
+iT = 1;
+t = time_2(1);
+while t ~= time_2(end)
+    plot(time_2(1:iT), gaze_2(1:iT),'w');
+    set(gca,'Color','k')
+
+    yline(0);
+    xlim([time_2(iT) - 5, time_2(iT) + 5])
+    ylim([-40, 40])
+    
+    t_ = time_2(time_2 < toc +  time_2(1));
+    t = t_(end);
+    iT = find(time_2 == t);
+    pause(T_pause)
+end
+
+
