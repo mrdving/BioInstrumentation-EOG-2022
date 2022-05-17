@@ -1,7 +1,10 @@
 - Why is my gain lower than the simulation?
-(refer to document "filter amp", May 10th)
+(refer to document "filter amp", May 10th & May 17th)
 The total gain is around 500 instead of the designated 1000.
 What is causing the difference?
+
+- Why is my peak detector having a temporal response only in the positive side?
+(refer to "LED_Interface", May 16th)
 
 - How to use the eog sensor?
 (refer to document "filter amp", May 10th, or "Sensor", May 10th)
