@@ -2,12 +2,22 @@
 (refer to document "filter amp", May 10th & May 17th)
 The total gain is around 500 instead of the designated 1000.
 What is causing the difference?
+A:
+    May be a compound of unideal components. Test with multimeters may tell.
 
 - Why is my peak detector having a temporal response only in the positive side?
 (refer to "LED_Interface", May 16th)
+A :
+    It's a difference in LED's on/off.
+    Tested and confirmed. The temporal response occurs when LED is turning on.
 
 - How to use the eog sensor?
 (refer to document "filter amp", May 10th, or "Sensor", May 10th)
 The eog signal did not show any difference to the gaze angle.
 Did I connected it wrong, or did I overlooked something else?
+A:
+    Well, still no idea. What I got was definitely pure noise.
+    Could be that the vertical electrodes will have less difference than horizontal setups.
+    Could be something wrong with the audio jack.
+    Nevertheless, I'll just move on for now.
 
