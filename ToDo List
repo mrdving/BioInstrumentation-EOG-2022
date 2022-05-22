@@ -1,8 +1,5 @@
 --- Current toDos --- (Sort by priority)
 
-Validation:
-- Test with the dataset with the new circuit
-
 Design report
 - Change design description to include only left / right
 - Change design description to detect changes of EOG instead of directly showing the gaze angle
